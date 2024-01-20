@@ -26,3 +26,42 @@ Before running the application, make sure you have the following installed:
    git clone https://github.com/yourusername/mern-google-authentication.git
    cd mern-google-authentication
    
+Run the Application
+Start the server:
+
+bash
+Copy code
+cd server
+npm start
+The server will run on http://localhost:3001.
+
+Start the client:
+
+bash
+Copy code
+cd client
+npm start
+The client will run on http://localhost:3000.
+
+3 .Open your browser and navigate to http://localhost:3000 to use the application.
+
+
+
+mern-google-authentication/
+|-- client/                  # Frontend React app
+|   |-- src/
+|   |   |-- components/
+|   |   |-- App.js
+|   |   |-- ...
+|-- server/                  # Backend Express.js app
+|   |-- config/
+|   |-- controllers/
+|   |-- models/
+|   |-- routes/
+|   |-- .env
+|   |-- server.js
+|   |-- ...
+|-- .gitignore
+|-- package.json
+|-- README.md
+
